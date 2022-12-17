@@ -261,6 +261,13 @@ p {
 /* Desktop design */
 
 @media only screen and (min-width: 768px) {
+
+    body {
+        background-color: hsl(225, 100%, 94%);
+        background-image: url('images/pattern-background-mobile.svg');
+        background-size: contain;
+    }
+
     section {
         margin: 48px;
     }
