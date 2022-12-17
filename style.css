@@ -221,6 +221,12 @@ p {
     margin-top: 3px;
 }
 
+.annual-plan a:hover,
+.annual-plan a:active {
+    color: hsla(245, 83%, 68%, 1);
+    text-decoration: none;
+}
+
 .payment {
     display: block;
     width: 100%;
@@ -233,6 +239,11 @@ p {
     box-shadow: 0px 20px 20px 0px hsla(245, 75%, 52%, 0.19);
 }
 
+.payment:hover,
+.payment:active {
+    background: hsla(245, 83%, 68%, 1);
+}
+
 .cancel {
     text-decoration: none;
     color: hsla(224, 23%, 55%, 1);
@@ -242,6 +253,10 @@ p {
 
 }
 
+.cancel:hover,
+.cancel:active {
+    color: hsl(228, 45%, 44%)
+}
 
 /* Desktop design */
 
@@ -269,6 +284,7 @@ p {
 
 /* Default styles */
 .attribution {
+    margin-top: 24px;
     font-size: 11px;
     text-align: center;
 }
